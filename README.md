@@ -1,5 +1,5 @@
 # GihubUser-AndroidApp
-##Dicoding Belajar Fundamental Aplikasi Android Submission
+Dicoding Belajar Fundamental Aplikasi Android Submission
 
 ### Submission 1
 #### Components:

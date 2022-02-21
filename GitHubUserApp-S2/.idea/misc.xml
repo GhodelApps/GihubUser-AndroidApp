@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dicoding/Android Studio Project/Dicoding-Submission2/app/src/main/res/drawable/ic_repo.xml" value="0.403125" />
+        <entry key="..\:/Dicoding/Android Studio Project/Dicoding-Submission2/app/src/main/res/layout/activity_detail_user.xml" value="0.38697916666666665" />
+        <entry key="..\:/Dicoding/Android Studio Project/Dicoding-Submission2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Dicoding/Android Studio Project/Dicoding-Submission2/app/src/main/res/layout/activity_splash_screen.xml" value="0.21927083333333333" />
+        <entry key="..\:/Dicoding/Android Studio Project/Dicoding-Submission2/app/src/main/res/layout/fragment_follow.xml" value="0.21927083333333333" />
+        <entry key="..\:/Dicoding/Android Studio Project/Dicoding-Submission2/app/src/main/res/layout/item_row_user.xml" value="0.21875" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp-v2/app/src/main/res/drawable-v24/shape_background.xml" value="0.2851851851851852" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp-v2/app/src/main/res/drawable/ic_search.xml" value="0.3814814814814815" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp-v2/app/src/main/res/layout-v28/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp-v2/app/src/main/res/layout/activity_detail_user.xml" value="0.25" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp-v2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp-v2/app/src/main/res/layout/activity_splash_screen.xml" value="0.26296296296296295" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp-v2/app/src/main/res/layout/fragment_follow.xml" value="0.33" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp-v2/app/src/main/res/layout/item_row_user.xml" value="0.26296296296296295" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp/app/src/main/res/layout/activity_detail_user.xml" value="0.25" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp/app/src/main/res/layout/detail_user.xml" value="0.20572916666666666" />
+        <entry key="..\:/Dicoding/Android Studio Project/GitHubUserApp/app/src/main/res/layout/item_row_user.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

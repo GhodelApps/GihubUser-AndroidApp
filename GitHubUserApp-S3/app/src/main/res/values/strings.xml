@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GitHub User App</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="github">Github</string>
+    <string name="logo_github">logo github</string>
+    <string name="tab1">Followers</string>
+    <string name="tab2">Following</string>ra
+    <string name="pict_avatar">pict avatar</string>
+    <string name="setting">Setting</string>
+    <string name="favorite">Favorite</string>
+    <string name="detail_user">Detail User</string>
+    <string name="setting_menu">Setting Menu</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="followers">%d Followers</string>
+    <string name="following">%d Following</string>
+    <string name="repository">%d Repository</string>
+    <string name="find_user"> Ayo cari user favorit anda sekarang</string>
+    <string name="hey">Hey ngapain ngelamun??</string>
+
+
+</resources>

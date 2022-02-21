@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".DetailUser">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DetailUser">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_Avatar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="24dp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/iv_Avatar"
+            app:layout_constraintStart_toStartOf="@id/iv_Avatar"
+            app:layout_constraintTop_toBottomOf="@id/iv_Avatar" />
+
+        <TextView
+            android:id="@+id/tv_detail_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/username"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_Avatar"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="@id/iv_Avatar"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_name" />
+
+        <view
+            android:id="@+id/view_following"
+            style="@style/view"
+            class="androidx.constraintlayout.widget.ConstraintLayout"
+            app:layout_constraintEnd_toStartOf="@+id/view_followers"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_username" />
+
+        <TextView
+            android:id="@+id/tv_detail_following"
+            style="@style/text"
+            android:gravity="center"
+            android:text="@string/following"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/view_following"
+            app:layout_constraintEnd_toEndOf="@id/view_following"
+            app:layout_constraintStart_toStartOf="@id/view_following"
+            app:layout_constraintTop_toTopOf="@id/view_following" />
+
+        <view
+            android:id="@+id/view_followers"
+            style="@style/view"
+            class="androidx.constraintlayout.widget.ConstraintLayout"
+            app:layout_constraintEnd_toStartOf="@+id/view_repo"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view_following"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_username" />
+
+        <TextView
+            android:id="@+id/tv_detail_followers"
+            style="@style/text"
+            android:gravity="center"
+            android:text="@string/followers"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/view_followers"
+            app:layout_constraintEnd_toEndOf="@id/view_followers"
+            app:layout_constraintStart_toStartOf="@id/view_followers"
+            app:layout_constraintTop_toTopOf="@id/view_followers" />
+
+        <view
+            android:id="@+id/view_repo"
+            style="@style/view"
+            class="androidx.constraintlayout.widget.ConstraintLayout"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view_followers"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_username" />
+
+        <TextView
+            android:id="@+id/tv_detail_repo"
+            style="@style/text"
+            android:gravity="center"
+            android:text="@string/repo"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/view_repo"
+            app:layout_constraintEnd_toEndOf="@id/view_repo"
+            app:layout_constraintStart_toStartOf="@id/view_repo"
+            app:layout_constraintTop_toTopOf="@id/view_repo" />
+
+        <TextView
+            android:id="@+id/tv_detail_location"
+            style="@style/text"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/location"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_following" />
+
+        <TextView
+            android:id="@+id/tv_detail_company"
+            style="@style/text"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/company"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_location" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
